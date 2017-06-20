@@ -6,7 +6,7 @@
     <AssemblyName>MessageBroker</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>MessageBroker</PackageId>
-    <RuntimeFrameworkVersion>1.1.4</RuntimeFrameworkVersion>
+    <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
     <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
   </PropertyGroup>
 
