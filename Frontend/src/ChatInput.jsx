@@ -37,7 +37,7 @@ class ChatInput extends Component {
     };
 
     return (
-      fetch("//localhost:5000/api/Message", callConfiguration)
+      fetch("//xchange2.azurewebsites.net/api/Message", callConfiguration)
         .then(response => {
           console.log(response);
           if (response.status >= 400) {
