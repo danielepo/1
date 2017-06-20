@@ -25,7 +25,7 @@ class ChatContent extends Component {
     };
 
     return (
-      fetch("//xchange2.azurewebsites.net/api/messageMessage/" + this.state.lastMessageId, callConfiguration)
+      fetch("//xchange2.azurewebsites.net/api/Message/" + this.state.lastMessageId, callConfiguration)
         .then(response => {
 
           if (response.status >= 400) {
